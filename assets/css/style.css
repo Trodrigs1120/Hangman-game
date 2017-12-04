@@ -1,0 +1,9 @@
+body {
+    background-image: url("../images/AmI80sYet.png");
+    
+}
+.panel-body {
+    padding:0 0 0 0;
+
+    border: 15px black solid;
+}
