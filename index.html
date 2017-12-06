@@ -26,15 +26,34 @@
     <div class="row">
         <div class="col-mid-10">
                 <div class="panel panel-default">
-                        <div id="HangMan"class="panel-body"> 
-                                
+                        <div class="HangManHeader">
+                                <p> Press any key to receive a word. Any repeated keystrokes will not use lives nor will non alphabetical keystrokes.
+                                    The answer is output in the console to make it easier for testing purposes.</p>  
                         </div>
+                        <div>
+                         <p id="LivesRemaining"></p>
+                         <p id="WinStreak"></p> 
+                         <p id="Messages"> </p>
+                        
+
+                        </div>
+                        <div id="HangMan"class="panel-body"> 
+                              
+                        </div>
+                        <p id="UsedLetters"></p>  
                 </div>
         </div>
     </div>
     <div class="row">
             <div class="panel panel-default">
                     <div class="panel-body"> 
+                            <p>Here is your 80s night club track to get in the mood</p>
+                            <audio preload="auto" tabindex="0" controls="controls">
+                                    <source src="assets/music/Voyager.ogg" type="audio/ogg" />
+                                <!--    <source src="assets/music/Paris.ogg" type="audio/ogg"/>
+                                    <source src="assets/music/She Swallowed Burning Coals.ogg" />
+                                  Your browser does not support the audio element. -->
+                                  </audio>
                     </div>
             </div>
     </div>

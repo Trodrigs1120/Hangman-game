@@ -7,3 +7,10 @@ body {
 
     border: 15px black solid;
 }
+#HangMan {
+    width: 200px;
+}
+.panel-default {
+    background: black;
+    color: #00bcd4;
+}
